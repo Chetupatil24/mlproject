@@ -1,0 +1,13 @@
+prefix=/Users/chetupatil/project/mlproject/venv
+exec_prefix=/Users/chetupatil/project/mlproject/venv
+libdir=/Users/chetupatil/project/mlproject/venv/lib
+sharedlibdir=/Users/chetupatil/project/mlproject/venv/lib
+includedir=/Users/chetupatil/project/mlproject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
